@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Mukta:wght@300&family=Oswald:wght@200;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Andada Pro', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.stopwatch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(60deg,rgb(85, 149, 72),rgb(24, 131, 150));
+    
+     
+}
+.stopwatch-display {
+    font-size: 45px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #fff;
+     
+}
+.stopwatch-btn {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    
+    margin-top: 20px;
+    border-radius: 50%;
+     
+}
+ .start{
+ font-size: 30px;
+}
+.stopwatch-reset {
+    background-color: red;
+    color: #fff;
+}
